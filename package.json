@@ -9,11 +9,11 @@
 
   "repository": {
     "type": "git",
-    "url": "git://github.com/hubot-scripts/hubot-datadog-interface.git"
+    "url": "git://github.com/quickjp2/hubot-datadog-interface.git"
   },
 
   "bugs": {
-    "url": "https://github.com/hubot-scripts/hubot-datadog-interface/issues"
+    "url": "https://github.com/quickjp2/hubot-datadog-interface/issues"
   },
 
   "dependencies": {
