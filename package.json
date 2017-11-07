@@ -1,28 +1,21 @@
 {
   "name": "hubot-datadog-interface",
   "description": "Talks with datadog on users' behalf",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "JP Quicksall <john.paul.quicksall@gmail.com>",
   "license": "MIT",
-
   "keywords": "hubot, hubot-scripts, datadog",
-
   "repository": {
     "type": "git",
     "url": "git://github.com/quickjp2/hubot-datadog-interface.git"
   },
-
   "bugs": {
     "url": "https://github.com/quickjp2/hubot-datadog-interface/issues"
   },
-
-  "dependencies": {
-  },
-
+  "dependencies": {},
   "peerDependencies": {
     "hubot": "2.x"
   },
-
   "devDependencies": {
     "chai": "3.5.0",
     "coffee-script": "1.12.6",
@@ -39,9 +32,7 @@
     "sinon": "2.2.0",
     "sinon-chai": "2.10.0"
   },
-
   "main": "index.coffee",
-
   "scripts": {
     "test": "grunt test"
   }
