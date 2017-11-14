@@ -1,27 +1,27 @@
 # Description
-#   Talks with datadog on users' behalf
+#    Talks with datadog on users' behalf
 #
 # Dependancies
-#   dogapi
+#    dogapi
 #
 # Configuration:
-#   HUBOT_DATADOG_APIKEY - Your Datadog API key
-#   HUBOT_DATADOG_APPKEY - Your Datadog app Key
-#   DATADOG_API_URL - Datadog api url, with trailing `/`
+#    HUBOT_DATADOG_APIKEY - Your Datadog API key
+#    HUBOT_DATADOG_APPKEY - Your Datadog app Key
+#    DATADOG_API_URL - Datadog api url, with trailing `/`
 #
 # Commands:
-#   hubot in datadog, mute monitor <mon_id> for <1-999> second|minute|hour - mute monitor for x amount of time
-#   hubot in datadog, unmute monitor <mon_id> - unmutes monitor
-#   hubot in datadog, schedule downtime for foundation <found_name> for <1-999> second|minute|hour - schedule downtime
-#   hubot in datadog, cancel downtime <dt_id> - cancel downtime by id
-#   hubot in datadog, cancel all downtimes for foundation: <found_name> - cancel downtime by id
-#   hubot in datadog, show status for downtime <dt_id> - show status for a specific downtime
+#    hubot in datadog, mute monitor <mon_id> for <1-999> second|minute|hour - mute monitor for x amount of time
+#    hubot in datadog, unmute monitor <mon_id> - unmutes monitor
+#    hubot in datadog, schedule downtime for foundation <found_name> for <1-999> second|minute|hour - schedule downtime
+#    hubot in datadog, cancel downtime <dt_id> - cancel downtime by id
+#    hubot in datadog, cancel all downtimes for foundation: <found_name> - cancel downtime by id
+#    hubot in datadog, show status for downtime <dt_id> - show status for a specific downtime
 #
 # Notes:
-#   <optional notes required for the script>
+#    <optional notes required for the script>
 #
 # Author:
-#   JP Quicksall <john.paul.quicksall@gmail.com>
+#    JP Quicksall <john.paul.quicksall@gmail.com>
 
 is_empty = (obj) ->
     return true if not obj? or obj.length is 0
